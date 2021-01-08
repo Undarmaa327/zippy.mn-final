@@ -37,28 +37,28 @@
                 ],
                 "defaultPrice": "12314",
                 "pricing": [
-                {
-                    "condition": [{
-                        "Name": "Size",
-                        "Value": "40"
-                        },
-                        {
-                        "Name": "Color",
-                        "Value": "Red"
-                        }],
-                        "price":"23423"
-                },
-                {
-                    "condition": [{
-                        "Name": "Size",
-                        "Value": "38"
-                        },
-                        {
-                        "Name": "Color",
-                        "Value": "Red"
-                        }],
-                        "price":"12345"
-                }
+                    {
+                        "condition": [{
+                            "Name": "Size",
+                            "Value": "40"
+                            },
+                            {
+                            "Name": "Color",
+                            "Value": "Red"
+                            }],
+                            "price":"23423"
+                    },
+                    {
+                        "condition": [{
+                            "Name": "Size",
+                            "Value": "38"
+                            },
+                            {
+                            "Name": "Color",
+                            "Value": "Red"
+                            }],
+                            "price":"12345"
+                    }
                 ]
     }
 ]

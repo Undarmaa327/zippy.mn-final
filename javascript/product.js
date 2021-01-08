@@ -1,11 +1,12 @@
 export default class Product{
-    constructor(id, productName, price, img, brand, props){
+    constructor(id, productName, price, img, brand, props, category){
         this.id = id;
         this.productName = productName;
         this.price = price;
         this.img = img;
         this.brand = brand;
         this.props = props;
+        this.category = category;
     }
     renderProps(props){
         let retValue="";

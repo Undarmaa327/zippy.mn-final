@@ -23,7 +23,7 @@ const products = [
             ]
     },
     {
-            "id": "1",
+            "id": "2",
                 "productName": "AJ 11",
                 "brand": "Nike",
                 "img": "./sources/sport-adidas.jpg",
@@ -67,7 +67,7 @@ const products = [
     
     for (const product of products){
 
-        const prod= new Product(product.id, product.productName, product.price, product.img, product.brand, product.props)
+        const prod = new Product(product.id, product.productName, product.price, product.img, product.brand, product.props)
 
         document.getElementById("baraaOruulah").insertAdjacentHTML("afterbegin", prod.render());
 
